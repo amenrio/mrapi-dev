@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mrapi-base"
+version = "0.1.0"
+description = ""
+authors = ["Andres Mendez <amenrio@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+lucidity = "^1.6.0"
+
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^7.4.6"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.2.5"
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

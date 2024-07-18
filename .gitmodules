@@ -1,0 +1,6 @@
+[submodule "mrapi-base.bak"]
+	path = mrapi-base.bak
+	url = ./mrapi-base.bak
+[submodule "mrapi-web"]
+	path = mrapi-web
+	url = ./mrapi-web/
